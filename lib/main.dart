@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:textfield/screen/Mix-up.dart';
 import 'package:textfield/screen/audi_design.dart';
 import 'package:textfield/screen/design2.dart';
 import 'package:textfield/screen/indian_flag.dart';
@@ -8,7 +9,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Flag(),
+      home: Mixup(),
     ),
   );
 }
